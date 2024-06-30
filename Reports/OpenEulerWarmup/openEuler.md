@@ -33,7 +33,7 @@ sudo make install
 |     |     |
 | --- | --- |
 | 硬件信息 | 软件信息 |
-| intel Eeon E5 2680v4 × 2 ~**28c56T**~  <br>Samsung RECC ddr4 4R × 4 2133MHz 32G × 2 = 64G  <br>Ati HD5450 | Platform kernel info：5.15.153.1-microsoft-standard-WSL2<br><br>qemu-9.0.1 `compile option: -enable-kvm`<br><br>openEuler各版本安装来源：<br><br>*   [x86](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/x86_64/openEuler-24.03-LTS-x86_64.qcow2.xz)<br>*   [aarch](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/aarch64/openEuler-24.03-LTS-aarch64.qcow2.xz)<br>*   [riscv64](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/riscv64/openEuler-24.03-LTS-riscv64.qcow2.xz) |
+| intel Eeon E5 2680v4 × 2 ~**28c56T**~  <br>Samsung RECC ddr4 4R × 4 2133MHz 32G × 2 = 64G  <br>Ati HD5450 | Platform kernel info：5.15.153.1-microsoft-standard-WSL2<br><br>qemu-9.0.1 <br><br>openEuler各版本安装来源：<br><br>*   [x86](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/x86_64/openEuler-24.03-LTS-x86_64.qcow2.xz)<br>*   [aarch](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/aarch64/openEuler-24.03-LTS-aarch64.qcow2.xz)<br>*   [riscv64](https://mirror.sjtu.edu.cn/openeuler/openEuler-24.03-LTS/virtual_machine_img/riscv64/openEuler-24.03-LTS-riscv64.qcow2.xz) |
 
 > TODO:
 > 
@@ -89,31 +89,31 @@ dnf update
 | --- | --- | --- |
 | 序号  | 测试用例名 | Status |
 | 1   | 测试 turtlesim功能 | Failed |
-| 2   | 测试ros2 pkg create | TODO |
-| 3   | 测试ros2 pkg executables | TODO |
-| 4   | 测试ros2 pkg list | TODO |
-| 5   | 测试ros2 pkg prefix | TODO |
-| 6   | 测试ros2 pkg xml | TODO |
-| 7   | 测试ros2 run | TODO |
-| 8   | 测试ros2 topic list | TODO |
-| 9   | 测试ros2 topic info | TODO |
-| 10  | 测试ros2 topic type | TODO |
-| 11  | 测试ros2 topic find | TODO |
-| 12  | 测试ros2 topic hz | TODO |
-| 13  | 测试ros2 topic bw | TODO |
-| 14  | 测试ros2 topic echo | TODO |
-| 15  | 测试ros2 param 工具 | TODO |
-| 16  | 测试ros2 service 工具 | TODO |
-| 17  | 测试ros2 node list | TODO |
-| 18  | 测试ros2 node info | TODO |
-| 19  | 测试ros2 bag 工具 | TODO |
-| 20  | 测试ros2 launch 工具 | TODO |
-| 21  | 测试ros2 interface list | TODO |
-| 22  | 测试ros2 interface package | TODO |
-| 23  | 测试ros2 interface packages | TODO |
-| 24  | 测试ros2 interface show | TODO |
-| 25  | 测试ros2 interface proto | TODO |
-| 26  | 测试 ros 通信组件相关功能 | TODO |
+| 2   | 测试ros2 pkg create | Passed |
+| 3   | 测试ros2 pkg executables | Passed |
+| 4   | 测试ros2 pkg list | Passed |
+| 5   | 测试ros2 pkg prefix | Passed |
+| 6   | 测试ros2 pkg xml | Passed |
+| 7   | 测试ros2 run | Passed |
+| 8   | 测试ros2 topic list | Passed |
+| 9   | 测试ros2 topic info | Passed |
+| 10  | 测试ros2 topic type | Passed |
+| 11  | 测试ros2 topic find | Passed |
+| 12  | 测试ros2 topic hz | Passed |
+| 13  | 测试ros2 topic bw | Passed |
+| 14  | 测试ros2 topic echo | Passed |
+| 15  | 测试ros2 param 工具 | Passed |
+| 16  | 测试ros2 service 工具 | Passed |
+| 17  | 测试ros2 node list | Passed |
+| 18  | 测试ros2 node info | Passed |
+| 19  | 测试ros2 bag 工具 | Passed |
+| 20  | 测试ros2 launch 工具 | Passed |
+| 21  | 测试ros2 interface list | Passed |
+| 22  | 测试ros2 interface package | Passed |
+| 23  | 测试ros2 interface packages | Passed |
+| 24  | 测试ros2 interface show | Passed |
+| 25  | 测试ros2 interface proto | Passed |
+| 26  | 测试 ros 通信组件相关功能 | Passed |
 
 ##### 测试 turtlesim功能（TODO）
 
@@ -233,8 +233,7 @@ enabled=1
 gpgcheck=0
 EOF'
 
-dnf install "ros-humble-*" --skip-broken --exclude=ros-humble-generate-parameter-library-
-example
+dnf install "ros-humble-*" --skip-broken --exclude=ros-humble-generate-parameter-library-example
 dnf update
 ```
 
@@ -246,34 +245,165 @@ dnf update
 | --- | --- | --- |
 | 序号  | 测试用例名 | Status |
 | 1   | 测试 turtlesim功能 | Failed |
-| 2   | 测试ros2 pkg create | Passed |
-| 3   | 测试ros2 pkg executables | Passed |
-| 4   | 测试ros2 pkg list | Passed |
-| 5   | 测试ros2 pkg prefix | Passed |
-| 6   | 测试ros2 pkg xml | Passed |
-| 7   | 测试ros2 run | Passed |
+| 2   | 测试ros2 pkg create | Failed |
+| 3   | 测试ros2 pkg executables | Failed |
+| 4   | 测试ros2 pkg list | Failed |
+| 5   | 测试ros2 pkg prefix | Failed |
+| 6   | 测试ros2 pkg xml | Failed |
+| 7   | 测试ros2 run | Failed |
 | 8   | 测试ros2 topic list | Passed |
 | 9   | 测试ros2 topic info | Passed |
 | 10  | 测试ros2 topic type | Passed |
 | 11  | 测试ros2 topic find | Passed |
-| 12  | 测试ros2 topic hz | Passed |
-| 13  | 测试ros2 topic bw | Passed |
-| 14  | 测试ros2 topic echo | Passed |
-| 15  | 测试ros2 param 工具 | Passed |
-| 16  | 测试ros2 service 工具 | Passed |
-| 17  | 测试ros2 node list | Passed |
-| 18  | 测试ros2 node info | Passed |
-| 19  | 测试ros2 bag 工具 | Passed |
-| 20  | 测试ros2 launch 工具 | Passed |
-| 21  | 测试ros2 interface list | Passed |
-| 22  | 测试ros2 interface package | Passed |
-| 23  | 测试ros2 interface packages | Passed |
-| 24  | 测试ros2 interface show | Passed |
-| 25  | 测试ros2 interface proto | Passed |
-| 26  | 测试 ros 通信组件相关功能 | Passed |
+| 12  | 测试ros2 topic hz | Failed |
+| 13  | 测试ros2 topic bw | Failed |
+| 14  | 测试ros2 topic echo | Failed |
+| 15  | 测试ros2 param 工具 | Failed |
+| 16  | 测试ros2 service 工具 | Failed |
+| 17  | 测试ros2 node list | Failed |
+| 18  | 测试ros2 node info | Failed |
+| 19  | 测试ros2 bag 工具 | Failed |
+| 20  | 测试ros2 launch 工具 | Failed |
+| 21  | 测试ros2 interface list | Failed |
+| 22  | 测试ros2 interface package | Failed |
+| 23  | 测试ros2 interface packages | Failed |
+| 24  | 测试ros2 interface show | Failed |
+| 25  | 测试ros2 interface proto | Failed |
+| 26  | 测试 ros 通信组件相关功能 | Failed |
+
+##### 测试 turtlesim功能（TODO）
+
+无桌面环境，TODO
+
+##### 测试ros2 pkg create
+
+Failed
+
+![](openEuler/49_image.png)
+
+##### 测试ros2 pkg executables
+
+无pkg包,Status:Failed
+
+##### 测试ros2 pkg list 
+
+无pkg包,Status:Failed
+
+##### 测试ros2 pkg prefix
+
+无pkg包,Status:Failed
+
+##### 测试ros2 pkg xml
+
+无pkg包,Status:Failed
+
+##### 测试ros2 run
+
+![](openEuler/50_image.png)
+
+##### 测试ros2 topic list
+
+![](openEuler/52_image.png)
+
+##### 测试ros2 topic info
+
+![](openEuler/53_image.png)
+
+##### 测试ros2 topic type
+
+![](openEuler/54_image.png)
+
+##### 测试ros2 topic find
+
+![](openEuler/56_image.png)
+
+##### 测试ros2 topic hz
+
+无ros2 run, Status: Failed.
+
+##### 测试ros2 topic bw
+
+无ros2 run, Status: Failed.
+
+##### 测试ros2 topic echo
+
+无ros2 run, Status: Failed.
+
+##### 测试ros2 param 工具
+
+无ros2 param, Status: Failed.
+
+##### 测试ros2 service 工具
+
+无ros2 run, Status: Failed.
+
+##### 测试ros2 node list
+
+无ros2 node, Status: Failed.
+
+##### 测试ros2 node info
+
+无ros2 node, Status: Failed.
+
+##### 测试ros2 bag 工具 
+
+无ros2 bag, Status: Failed.
+
+ros2 bag info   
+ 无ros2 bag, Status: Failed.
+
+ros2 bag replay   
+无ros2 bag, Status: Failed.  
+ 
+
+##### 测试ros2 launch 工具
+
+无ros2 launch, Status: Failed.
+
+##### 测试ros2 interface list
+
+无ros2 interface, Status: Failed.
+
+##### 测试ros2 interface package  
+
+无ros2 interface, Status: Failed.
+
+##### 测试ros2 interface packages
+
+##### 无ros2 interface, Status: Failed.  
+测试ros2 interface show 
+
+无ros2 interface, Status: Failed.
+
+##### 测试ros2 interface proto 
+
+无ros2 interface, Status: Failed.
+
+##### 测试 ros 通信组件相关功能 
+
+ros2 tf2\_ros  
+无ros2 run, Status: Failed.
+
+ros2 view frame   
+无ros2 view, Status: Failed.
 
 ### riscv下
 
 > ~还在尝试（~
 > 
 > 也成功了！
+
+```text-plain
+bash -c 'cat << EOF > /etc/yum.repos.d/ROS.repo
+[openEulerROS-humble]
+name=openEulerROS-humble
+baseurl=https://build-repo.tarsier-infra.isrc.ac.cn/openEuler:/ROS/24.03/riscv64/
+enabled=1
+gpgcheck=0
+EOF'
+
+dnf update
+
+dnf install "ros-humble-*" --skip-broken --exclude=ros-humble-generate-parameter-library-example
+
+```
