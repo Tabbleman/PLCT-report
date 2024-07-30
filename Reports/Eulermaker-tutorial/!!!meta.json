@@ -1,0 +1,291 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.59.3",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "IYjneW1Uklik",
+			"notePath": [
+				"IYjneW1Uklik"
+			],
+			"title": "Eulermaker 简明指南",
+			"notePosition": 60,
+			"prefix": null,
+			"isExpanded": false,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "KkUI1VBCAX2o",
+					"isInheritable": false,
+					"position": 2
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "UfHt8MSB0eBD",
+					"isInheritable": false,
+					"position": 4
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "j1bfnGvVtndO",
+					"isInheritable": false,
+					"position": 5
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "mt0LpfgKOQaZ",
+					"isInheritable": false,
+					"position": 6
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "a5ls35NBDi16",
+					"isInheritable": false,
+					"position": 7
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "DNgdZC8tcvQc",
+					"isInheritable": false,
+					"position": 8
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "ox7zWTBNyqey",
+					"isInheritable": false,
+					"position": 9
+				}
+			],
+			"format": "markdown",
+			"dataFileName": "Eulermaker 简明指南.md",
+			"dirFileName": "Eulermaker 简明指南",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "ONHOIutoTBad",
+					"notePath": [
+						"IYjneW1Uklik",
+						"ONHOIutoTBad"
+					],
+					"title": "image.png",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "KkUI1VBCAX2o",
+					"notePath": [
+						"IYjneW1Uklik",
+						"KkUI1VBCAX2o"
+					],
+					"title": "image.png",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "1_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "2x2ifNpWBkpy",
+					"notePath": [
+						"IYjneW1Uklik",
+						"2x2ifNpWBkpy"
+					],
+					"title": "image.png",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "2_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "UfHt8MSB0eBD",
+					"notePath": [
+						"IYjneW1Uklik",
+						"UfHt8MSB0eBD"
+					],
+					"title": "image.png",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "3_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "j1bfnGvVtndO",
+					"notePath": [
+						"IYjneW1Uklik",
+						"j1bfnGvVtndO"
+					],
+					"title": "image.png",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "4_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "mt0LpfgKOQaZ",
+					"notePath": [
+						"IYjneW1Uklik",
+						"mt0LpfgKOQaZ"
+					],
+					"title": "image.png",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "5_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "a5ls35NBDi16",
+					"notePath": [
+						"IYjneW1Uklik",
+						"a5ls35NBDi16"
+					],
+					"title": "image.png",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "6_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "DNgdZC8tcvQc",
+					"notePath": [
+						"IYjneW1Uklik",
+						"DNgdZC8tcvQc"
+					],
+					"title": "image.png",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "7_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "ox7zWTBNyqey",
+					"notePath": [
+						"IYjneW1Uklik",
+						"ox7zWTBNyqey"
+					],
+					"title": "image.png",
+					"notePosition": 90,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "8_image.png"
+				}
+			]
+		}
+	]
+}

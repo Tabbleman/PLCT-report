@@ -1,0 +1,48 @@
+# Eulermaker 简明指南
+在使用euler maker构建软件包的时候，我们首先需要区分一下两个概念
+
+*   工程
+*   镜像
+
+工程即为你要构建的项目，而镜像则是你项目具体跑在那个版本的os上。
+
+eulermaker get start
+--------------------
+
+首先进入EulerMaker官网
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/1_image.png)
+
+在本文中，我们以[cartographer\_ros](https://gitee.com/src-openeuler/cartographer_ros)这个包为例，作为构建对象：
+
+在首页中，我们在公有工程中选择openEuler\_24.03\_LTS\_Epol\_Multi-Version\_ROS\_humble作为父工程，继承以后建立一个自己的工程名称，这里命名为eulermake-tutorial
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/6_image.png)
+
+在私有工程中可以看到自己建立的工程
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/3_image.png)
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/4_image.png)
+
+然后添加软件包，这里我们选择humble分支作为需要构建的分支。
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/5_image.png)
+
+然后点击增量构建，在构建历史可以看到构建状态。
+
+关于 _状态_
+
+*   构建阻塞：有别的项目在构建，需要排队
+*   构建中：说明你的项目正在构建
+*   其他：如构建失败，依赖未闭环，你可能需要先进行检查自己的项目.spec文件是否正确配置，patch文件是否正常打上，可以点击job ID进去查看构建的日志文件。
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/7_image.png)
+
+![](Eulermaker%20%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97/8_image.png)
+
+当然，最近eulermaker似乎非常不稳定，经常刷新页面以后404，所以你可能需要等待一段时间。
+
+> Don't panic.
+
+然后等待构建成功以后就可以下载构建完成的rpm包了。
